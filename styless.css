@@ -1,0 +1,250 @@
+header {
+  background-image: url(img/logo0.jpg);
+  padding-bottom: 10%;
+  background-size: 100% 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: lato;
+    color: black;
+}
+nav{
+    height: 40px;
+    background: rgb(72, 69, 213);
+    margin-bottom: 5px;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 25px;
+    border-right: 1px solid gray;
+}
+nav ul li:hover {
+    background: rgb(7, 5, 90);
+}
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav .tkiem input{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+}
+nav .tkiem button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: rgb(72, 69, 213);
+    color: #fff;
+    margin-left: -5px;
+}
+aside{
+    float: left;
+    width: 350px;
+    border-left: 1px gray solid;
+}
+h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: rgb(72, 69, 213);
+    color: #fff;
+}
+.menudoc ul{
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+.menudoc ul li:hover{
+    background: rgb(7, 5, 90);
+}
+footer{
+   width: 100%;
+   clear: both;
+   background: rgb(72, 69, 213);
+   color: #fff;
+}
+.fk1{
+    float: left;
+    width: 400px;
+    margin-bottom: 25px;
+    color: black;
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+}
+.ft3{
+    width: 100%;
+    clear: both;
+    height: 40px;
+    background: rgb(7, 5, 90);
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.ft3 p{
+    color: white;
+    font-size: 15px;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-bottom: 15px;
+}  
+  h3 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+  } 
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+  .ft2 {
+    color: black;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .tintuc1 {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+  }
+  .tintuc1 img {
+    max-width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+  .tintuc1 h2{
+    padding: 10px;
+    /* text-align: right; */
+  }
+  .tintuc1 p{
+    text-align: left;
+  }
+  .bamvo ul li a {
+    color: #333;
+  }
+  .thongtin h2 {
+    text-align: center;
+    color: rgb(72, 69, 213);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  .grid-item {
+    background-color: #f0f0f0; 
+    padding: 15px;
+    text-align: center;
+  }
+  .grid-item img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 10px; 
+  }
+  .grid-item h3 {
+    margin: 10px 0; 
+    color: #333; 
+  }
+  .grid-item p {
+    color: #666; 
+  }
+  .grid-item button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .grid-item p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .Tuyensinh h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(72, 69, 213);
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .middle{
+    text-align: center;
+  }
+  .btn{
+    background: none;
+    border: 2px solid #000;
+    font-family: "montserrat",sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+  }
+  .btn:hover{
+    color: #fff;
+  }
+  .btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+  }
+  .btn1::before{
+    transform: scaleX(0);
+  }
+  .btn2::before{
+    transform: scaleY(0);
+  }
+  .btn1:hover::before{
+    transform: scaleX(1);
+  }
+  .btn2:hover::before{
+    transform: scaleY(1);
+  }
+  
